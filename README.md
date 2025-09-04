@@ -79,7 +79,7 @@ Este proyecto implementa una prueba técnica para el cargo de Científico de Dat
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
+git clone https://github.com/tu_usuario/xpertgroup.git
 cd tu_repositorio
 
 
