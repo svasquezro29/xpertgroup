@@ -35,6 +35,8 @@ Este proyecto implementa una prueba técnica para el cargo de Científico de Dat
 
 
 ## 📁 Estructura del Proyecto
+
+```bash
 .
 ├── data/
 │   └── raw/                
