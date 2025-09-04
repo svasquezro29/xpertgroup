@@ -35,7 +35,7 @@ Este proyecto implementa una prueba técnica para el cargo de Científico de Dat
 
 
 ## 📁 Estructura del Proyecto
-
+.
 ├── data/
 │   └── raw/                
 │       ├── customers.csv       # Datos crudos de clientes: signup_date, género, edad, canal, premium, etc.
