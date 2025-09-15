@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/santiagovasquezr/Documents/xpertgroup/notebooks/../mlruns/280758081752632693/492c71cdc7be4492b0ed6854dfda0000/artifacts
+end_time: 1757100849023
+entry_point_name: ''
+experiment_id: '280758081752632693'
+lifecycle_stage: active
+run_id: 492c71cdc7be4492b0ed6854dfda0000
+run_name: Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757100819380
+status: 3
+tags: []
+user_id: santiagovasquezr

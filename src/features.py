@@ -12,7 +12,7 @@ def summarize_customer_activity(
     Devuelve last_order_date, recency_days (si cutoff),
     frequency_{window_days}d y monetary_{window_days}d por customer_id.
 
-    table debe contener al menos ['customer_id', 'order_date'].
+    tabla debe contener al menos ['customer_id', 'order_date'].
     Puede contener opcionalmente 'order_id' y 'order_amount'.
     """
     df = table.copy()
@@ -36,7 +36,7 @@ def summarize_customer_activity(
               .rename(columns={'order_date': 'last_order_date'})
     )
 
-    # Ventana rolling: (cutoff - window_days, cutoff]
+    # Ventana movil: (cutoff - window_days, cutoff]
     if cutoff_ts is not None:
         window_start = cutoff_ts - pd.Timedelta(days=window_days)
         mask = (df['order_date'] > window_start) & (df['order_date'] <= cutoff_ts)
@@ -69,7 +69,7 @@ def summarize_customer_activity(
                        .merge(freq, on='customer_id', how='left') \
                        .merge(mon, on='customer_id', how='left')
 
-    # Recency si se pidió
+    # Recency
     if cutoff_ts is not None:
         summary['recency_days'] = (cutoff_ts - pd.to_datetime(summary['last_order_date'])).dt.days
 

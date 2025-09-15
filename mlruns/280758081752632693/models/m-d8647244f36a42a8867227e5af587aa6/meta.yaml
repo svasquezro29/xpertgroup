@@ -1,0 +1,10 @@
+artifact_location: file:///Users/santiagovasquezr/Documents/xpertgroup/notebooks/../mlruns/280758081752632693/models/m-d8647244f36a42a8867227e5af587aa6/artifacts
+creation_timestamp: 1757100149128
+experiment_id: '280758081752632693'
+last_updated_timestamp: 1757100153825
+model_id: m-d8647244f36a42a8867227e5af587aa6
+model_type: null
+name: Regresión Logística
+source_run_id: d37f9ae818f84f488a333b532cfa9539
+status: 2
+status_message: null

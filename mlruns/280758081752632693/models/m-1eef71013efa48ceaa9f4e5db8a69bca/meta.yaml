@@ -1,0 +1,10 @@
+artifact_location: file:///Users/santiagovasquezr/Documents/xpertgroup/notebooks/../mlruns/280758081752632693/models/m-1eef71013efa48ceaa9f4e5db8a69bca/artifacts
+creation_timestamp: 1757103965289
+experiment_id: '280758081752632693'
+last_updated_timestamp: 1757103970183
+model_id: m-1eef71013efa48ceaa9f4e5db8a69bca
+model_type: null
+name: model
+source_run_id: c6ce9e4953f7439d84901c7dbfd386e3
+status: 2
+status_message: null

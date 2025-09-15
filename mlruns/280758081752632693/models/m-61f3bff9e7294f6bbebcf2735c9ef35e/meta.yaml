@@ -1,0 +1,10 @@
+artifact_location: file:///Users/santiagovasquezr/Documents/xpertgroup/notebooks/../mlruns/280758081752632693/models/m-61f3bff9e7294f6bbebcf2735c9ef35e/artifacts
+creation_timestamp: 1757100173013
+experiment_id: '280758081752632693'
+last_updated_timestamp: 1757100177724
+model_id: m-61f3bff9e7294f6bbebcf2735c9ef35e
+model_type: null
+name: Random Forest
+source_run_id: abeae74aa30749f79353fe43bb6d33b2
+status: 2
+status_message: null

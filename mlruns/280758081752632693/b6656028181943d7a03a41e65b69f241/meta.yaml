@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/santiagovasquezr/Documents/xpertgroup/notebooks/../mlruns/280758081752632693/b6656028181943d7a03a41e65b69f241/artifacts
+end_time: 1757103946537
+entry_point_name: ''
+experiment_id: '280758081752632693'
+lifecycle_stage: active
+run_id: b6656028181943d7a03a41e65b69f241
+run_name: Regresión Logística
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757103936497
+status: 3
+tags: []
+user_id: santiagovasquezr
